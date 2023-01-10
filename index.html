@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Landing page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logoDiv">
+            <img src="./Images/Logo.png" alt="Logo Image" class="logo">
+        </div>
+        <div class="navBar" id="navBar">
+            <ul class="navLists">
+                <li class="navItem"><a href="#home" class="navLink">Home</a></li>
+                <li class="navItem"><a href="#about" class="navLink">Who We Are</a></li>
+                <li class="navItem"><a href="#store" class="navLink">Store</a></li>
+                <li class="navItem"><a href="#program" class="navLink">Routine</a></li>
+            </ul>
+
+            <div class="closeIconDiv" id="closeIcon">
+                <i class='bx bx-x-circle closeIcon icon'></i>
+            </div>
+        </div>
+
+        <div class="toggleIconDiv" id="toggleIcon">
+            <i class='bx bx-menu toggleIcon icon' ></i>
+        </div>
+
+        <div class="headerRight">
+
+           <div class="searchDiv" id="searchDiv">
+            <input type="text" placeholder="Search here...">
+            <i class='bx bx-x-circle closeIcon icon' id="closeSearchIcon"></i>
+           </div>
+           <i class='bx bx-search-alt-2 searchIcon icon ' id="searchIcon" ></i>
+           <button type="button" class="headerBtn"><a href="#contact">Contact</a></button>
+           <i class='bx bx-user-circle icon'></i>
+        </div>
+    </header>
+
+
+    <!-- Banner Section =============================== -->
+    <div class="banner" id="home">
+        <div class="bannerInfo">
+            <div class="bannerText">
+                <h1 class="title">Train Hard, <span>Live Better</span></h1>
+                <p>
+                    It helps build self-morale, determination, and better communication skills. It also improves quality of sleep, fights depression, and aids weight loss in the most effective way.
+                </p>
+            </div>
+        
+                <div class="bannerSearchDiv">
+                   <div class="register__Video">
+                        <div class="searchDiv">
+                            <input type="text" placeholder="Search here...">
+                            <button type="button">Register</button>
+                        </div>
+    
+                        <div class="VideoDiv">
+                            <i class='bx bx-play-circle icon'></i>
+                            <span>Play Video</span>
+                        </div>
+                   </div>
+        
+                    <div class="socialIconDiv">
+                        <span>Follow Us</span>
+                        <i class='bx bxl-facebook-circle icon' ></i>
+                        <i class='bx bxl-instagram-alt icon' ></i>
+                        <i class='bx bxl-twitter icon' ></i>
+                        <i class='bx bxl-linkedin-square icon' ></i>
+                    </div>
+                </div>
+        </div>
+
+       <img src="./Images/Shape-2.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Shape-4.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Shape.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-3.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-4.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-5.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-6.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-7.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-8.png" alt="vector Images (Designs)" class="vectorImg">
+       <img src="./Images/Vector-9.png" alt="vector Images (Designs)" class="vectorImg">
+
+    </div>
+
+    <!-- Body section ========================================================================= -->
+    <div class="about section container" id="about">
+        <div class="sectionContent grid">
+            <div class="secText">
+                <h1 class="title">Getting Started with BoxTrong</h1>
+                <p class="desc">Whether you are an absolute beginner, intermediate, or advanced, <br>
+                BoxTrong will help you to stay healthy easily wherever and whenever.
+                Get result-focused knwoledge on weight loss, strength, nutrition, and more on our blog  </p>
+                <button type="button">Get Started</button>
+            </div>
+
+            <div class="secImage">
+                <img src="./Images/image4.png" alt="Gym image">
+            </div>
+        </div>
+    </div>
+
+    <!-- HomeGuide Section ================================================================ -->
+    <div class="homeGuide section container">
+        <div class="containerContent grid">
+            <div class="imageDiv">
+                <img src="./Images/image5.png" alt="Image" class="imageFive">
+                <img src="./Images/image6.png" alt="Image" class="imageSix">
+            </div>
+            <div class="secText">
+                <h1 class="title">Workout at home with ease</h1>
+                <p class="desc"> We believe fitness should be accessible to everyone, everywhere. <br> With hundreds of professional workouts, healthy recipes and informative articles, you'll have everything you need to reach your personal fitness goal. </p>
+                <button type="button">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop Section ========================================== -->
+    <div class=" shop section container" id="store">
+        <div class="containerContent ">
+            <div class="secIntro">
+                <h1 class="title">Visit our online shop</h1>
+                <span>We got you covered, we have a selection of work from home machines and food recommended to you by our trainers.</span>
+
+                <div class="btns">
+                    <button type="button" id="toolBtn" class="shopBtn activeBtn">Tools</button>
+                    <button type="button" id="foodBtn" class="shopBtn">Food</button>
+                </div>
+            </div>
+
+            <!-- tools images section ==================================== -->
+            <div class="imageDiv grid tools">
+                <div class="tool">
+                    <img src="./Images/gymTools/tool (8).png" alt="Gym Machine Image">
+                    <div class="toolDesc">
+                        <span>Bench One</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$460</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="tool">
+                    <img src="./Images/gymTools/tool (11).png" alt="Gym Machine Image">
+                    <div class="toolDesc">
+                        <span>Bench Two</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                           <i class='bx bxs-star-half icon' ></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$890</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="tool">
+                    <img src="./Images/gymTools/tool (10).png" alt="Gym Machine Image">
+                    <div class="toolDesc">
+                        <span>Bench Three</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$960</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="tool">
+                    <img src="./Images/gymTools/tool (9).png" alt="Gym Machine Image">
+                    <div class="toolDesc">
+                        <span>Bench Four</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$1,760</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Food images section ==================================== -->
+            <div class="imageDiv  grid foods In_active">
+                <div class="food">
+                    <img src="./Images/foodImages/food1.png" alt="food Image">
+                    <div class="foodDesc">
+                        <span>Food One</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$460</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="food">
+                    <img src="./Images/foodImages/food2.png" alt="food Image">
+                    <div class="foodDesc">
+                        <span>Food Two</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                           <i class='bx bxs-star-half icon' ></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$890</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="food">
+                    <img src="./Images/foodImages/food3.png" alt="food Image">
+                    <div class="foodDesc">
+                        <span>Food Three</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$960</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+                <div class="food">
+                    <img src="./Images/foodImages/food4.png" alt="food Image">
+                    <div class="foodDesc">
+                        <span>Food Four</span>
+                        <span class="stars">
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star icon'></i>
+                            <i class='bx bxs-star-half icon' ></i>
+                        </span>
+                        <span class="price">$1,760</span>
+                    </div>
+                    <div class="cartBtn">
+                        <button type="button">Add To Cart </button>
+                        <i class='bx bx-cart icon'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Program Section ========================================== -->
+    <div class="section program container" id="program">
+        <div class="secTitle">
+            <h1 class="title">Our recently included program</h1>
+            <span>Here we align the recenlty actives in the 2022 program for everyone to follow</span>
+        </div>
+        <div class="progCardContainer grid">
+            <div class="progCard">
+                <div class="iconDiv">
+                    <img src="./Images/icons/icons (1).png" alt="icon" class="cardIcon">
+                </div>
+                <span class="cardTitle">
+                    Basic Yoga
+                </span>
+                <p>Basic Yoga movement for beginners</p>
+    
+                <div class="cardBtn">
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+            <div class="progCard">
+                <div class="iconDiv">
+                    <img src="./Images/icons/icons (2).png" alt="icon" class="cardIcon">
+                </div>
+                <span class="cardTitle">
+                    Muscle Building
+                </span>
+                <p>Improve muscle mass with the rigth exercise</p>
+    
+                <div class="cardBtn">
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+            <div class="progCard">
+                <div class="iconDiv">
+                    <img src="./Images/icons/icons (3).png" alt="icon" class="cardIcon">
+                </div>
+                <span class="cardTitle">
+                    Cardio strength
+                </span>
+                <p>Combinig bodyweight cardio with strength exercise.</p>
+    
+                <div class="cardBtn">
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+            <div class="progCard">
+                <div class="iconDiv">
+                    <img src="./Images/icons/icons (4).png" alt="icon" class="cardIcon">
+                </div>
+                <span class="cardTitle">
+                   Beginer Pilates
+                </span>
+                <p>Basic pilates movements for beginners</p>
+    
+                <div class="cardBtn">
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe section ================================== -->
+
+    <div class="section container contact" id="contact">
+        <div class="secContainer">
+            <h2>Subscribe our daily tips</h2>
+            <p>Get helpful tips to help you get in shape and stay in shape for life! </p>
+            <div class="searchDiv">
+                
+                    <input type="text" placeholder="Enter your email...">
+                <button type="submit">Subscribe</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section =============================-->
+    <div class="footer  section">
+        <div class="footerContainer grid">
+            <div class="logoDiv">
+                <img src="./Images/Logo.png" alt="Logo Image" class="logo">
+                <li>About us</li>
+                <li>Blog</li>
+                <div class="socialIconDiv">
+                    <i class='bx bxl-facebook-circle icon' ></i>
+                    <i class='bx bxl-instagram-alt icon' ></i>
+                    <i class='bx bxl-twitter icon' ></i>
+                    <i class='bx bxl-linkedin-square icon' ></i>
+                </div>
+            </div>
+            <div class="programDiv">
+                <span>Programs</span>
+                <li>Our programs</li>
+                <li>Our plans</li>
+                <li>Become a member</li>
+            </div>
+            <div class="supportDiv">
+                <span>Support</span>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+                <li>Affiliation</li>
+            </div>
+            <div class="appDiv">
+                <span>Download our app</span>
+                <img src="./Images/app.png" alt="apps">
+            </div>
+        </div>
+        <div class="copyright">
+            <small>Privacy Policy </small>
+            <small> Condition of Use </small>
+            <small> &copy;2022 - IsraTech </small>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
